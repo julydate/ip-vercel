@@ -1,0 +1,16 @@
+{
+  "name": "ip-vercel",
+  "version": "1.0.0",
+  "description": "Serverless IP 聚合查询 API",
+  "main": "index.js",
+  "author": "julydate",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "iconv-lite": "^0.6.3",
+    "ip-address": "^8.1.0",
+    "ipdb": "^0.3.3",
+    "lib-qqwry": "^1.3.2",
+    "zxinc-ipv6": "^0.0.1"
+  }
+}

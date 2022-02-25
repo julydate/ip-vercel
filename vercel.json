@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/api/"
+    },
+    {
+      "src": "/ip/(?<ip>[^/]+)/*(?<type>[^/]+)*",
+      "dest": "/api/?ip=$ip&type=$type"
+    },
+    {
+      "src": "/data/.*",
+      "status": 404,
+      "dest": "/does-not-exist"
+    }
+  ]
+}
